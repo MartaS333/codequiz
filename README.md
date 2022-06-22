@@ -1,4 +1,4 @@
-# Challenge-Four Code Quiz
+# Challenge-Four: Code Quiz
 
 **Summary:**
 Create a website application that quizzes the user on Studio Ghibli facts.
