@@ -2,6 +2,7 @@
 
 **Summary:**
 Create a website application that quizzes the user on Studio Ghibli facts.
+
 **Criteria:**
 
 * GIVEN I am taking a code quiz
@@ -17,7 +18,7 @@ Create a website application that quizzes the user on Studio Ghibli facts.
 * THEN I can save my initials and score
 * 
 **Link to website:**
-https://martas333.github.io/Challenge3_GeneratePassword/
+https://martas333.github.io/codequiz/
 
 **Image of website:**
 
