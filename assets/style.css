@@ -1,0 +1,127 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* For sticky footer - used flexbox from https://css-tricks.com/couple-takes-sticky-footer/ */
+html, body {
+    height: 100%;
+}
+
+body {
+    /* Background image CSS from https://web.dev/optimize-css-background-images-with-media-queries/*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* css so footer is at bottom of viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content */
+main {
+    /* css so footer is at bottom of viewport */
+    flex: 1 0 auto;
+}
+
+p{
+    margin-top: 25px;
+}
+
+/* Footer */
+footer {
+    /* css so footer is at bottom of viewport */
+    flex-shrink: 0;
+    font-size: .5rem;
+}
+
+/* hide sections until they are shown via the click events */
+#questions,
+#final,
+#highscores,
+#yaynay {
+    display: none;  
+  } 
+
+/* Remove bullet points from answers list */
+ul.nobullets {
+list-style-type: none;
+}
+
+/*View High Scores button Styling*/
+.viewScrBtn,
+.viewScrBtn:hover,
+.viewScrBtn:active,
+.viewScrBtn:focus,
+.viewScrBtn:active:focus {
+    box-shadow: none;
+    outline: none;
+    background-color: #da8c8c;
+}
+
+/*Start Button Styling*/
+.startBtn,
+.startBtn:hover,
+.startBtn:active,
+.startBtn:focus,
+.startBtn:active:focus {
+    box-shadow: none;
+    outline: none;
+    background-color: #da8c8c;
+}
+
+/* Answer button styling */
+.ansBtn,
+.ansBtn:hover,
+.ansBtn:active,
+.ansBtn:focus,
+.ansBtn:active:focus {
+
+    box-shadow: none;
+    outline: none;
+    background-color: #da8c8c;
+}
+
+/*Submit button Styling*/
+.submitScrBtn,
+.submitScrBtn:hover,
+.submitScrBtn:active,
+.submitScrBtn:focus,
+.submitScrBtn:active:focus {
+    box-shadow: none;
+    outline: none;
+    background-color: #da8c8c;
+}
+
+/*Go back button Styling*/
+.goBackBtn,
+.goBackBtn:hover,
+.goBackBtn:active,
+.goBackBtn:focus,
+.goBackBtn:active:focus {
+    box-shadow: none;
+    outline: none;
+    background-color: #da8c8c;
+}
+
+/*Clear Scores Button Styling*/
+.clearScrBtn,
+.clearScrBtn:hover,
+.clearScrBtn:active,
+.clearScrBtn:focus,
+.clearScrBtn:active:focus {
+    box-shadow: none;
+    outline: none;
+    background-color: #da8c8c;
+}
+
+
+@media (min-width: 1025px) {
+    body {
+	    background-image: url(../assets/images/backgroundedit.jpg);
+   }
+}
