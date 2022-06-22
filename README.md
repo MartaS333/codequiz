@@ -16,7 +16,8 @@ Create a website application that quizzes the user on Studio Ghibli facts.
 * THEN the game is over
 * WHEN the game is over
 * THEN I can save my initials and score
-* 
+
+
 **Link to website:**
 https://martas333.github.io/codequiz/
 
